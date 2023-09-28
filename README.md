@@ -15,7 +15,7 @@ client-server Secure Sockets Layer (SSL) connection. Here you can find the
 [Algorand](https://github.com/apwbs/MARTSIA-Algorand) one. 
 In the Ethereum repo there is a folder called "caterpillar-interaction" where you can find all the necessary to run 
 MARTSIA-Ethereum along with
-[Caterpillar](https://github.com/orlenyslp/Caterpillar) as explained in the paper.
+[Caterpillar](https://github.com/orlenyslp/Caterpillar) as explained in the papers.
 
 The second implementation is the one where the keys are exchanged via blockchain. Here you can find the 
 [Ethereum](https://github.com/apwbs/MARTSIA-Ethereum-KoB) implementation and the 
