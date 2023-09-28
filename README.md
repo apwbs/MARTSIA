@@ -5,7 +5,7 @@ Applications (MARTSIA) project. From here you will be redirected to all the avai
 The MARTSIA approach is presented in two papers. The first one is 
 "[MARTSIA: Enabling Data Confidentiality for Blockchain-based Process 
 Execution](https://arxiv.org/abs/2303.17977)" accepted at 
-[EDOC 2023](https://www.rug.nl/research/bernoulli/conf/?lang=en). [DOI](https://doi.org/10.1007/978-3-031-46587-1_4) of the conference. 
+[EDOC 2023](https://www.rug.nl/research/bernoulli/conf/?lang=en). [DOI](https://doi.org/10.1007/978-3-031-46587-1_4) of the conference (to appear). 
 The second paper about MARTSIA, that extends the work done in the first one, is 
 "[Enabling Data Confidentiality with Public Blockchains](https://arxiv.org/abs/2308.03791)".
 
