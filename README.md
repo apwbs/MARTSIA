@@ -10,3 +10,13 @@ The second paper about MARTSIA, that extends the work done in the first one, is
 "[Enabling Data Confidentiality with Public Blockchains](https://arxiv.org/abs/2308.03791)". This journal version has 
 been submitted at [ACM Transactions on Internet Technology (ACM-TOIT)](https://dl.acm.org/journal/toit), and it is currently
 under review.
+
+MARTSIA is implemented in Ethereum and Algorand. The first implementation is the one where the keys are exchanged via a
+client-server Secure Sockets Layer (SSL) connection. Here you can find the [Ethereum](https://github.com/apwbs/MARTSIA-Ethereum) 
+implementation and the [Algorand](https://github.com/apwbs/MARTSIA-Algorand) one. In the Ethereum repo there is a folder 
+called "caterpillar-interaction" where you can find all the necessary to run MARTSIA-Ethereum along Caterpillar as 
+explained in the paper.
+
+The second implementation is the one where the keys are exchanged via blockchain. Here you can find the 
+[Ethereum](https://github.com/apwbs/MARTSIA-Ethereum-KoB) implementation and the 
+[Algorand](https://github.com/apwbs/MARTSIA-Algorand-KoB) one.
