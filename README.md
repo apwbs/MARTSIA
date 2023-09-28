@@ -20,3 +20,8 @@ explained in the paper.
 The second implementation is the one where the keys are exchanged via blockchain. Here you can find the 
 [Ethereum](https://github.com/apwbs/MARTSIA-Ethereum-KoB) implementation and the 
 [Algorand](https://github.com/apwbs/MARTSIA-Algorand-KoB) one.
+
+The third implementation is the one where the smart contracts control the access and the behavior of the users. Here you 
+can find the 
+[Ethereum](https://github.com/apwbs/MARTSIA-Ethereum-CSC) implementation and the 
+[Algorand](https://github.com/apwbs/MARTSIA-Algorand-CSC) one. 
