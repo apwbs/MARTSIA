@@ -1,21 +1,21 @@
-# Multi-Authority Approach to Transaction Systems for Interoperating Applications
+# MARTSIA: Multi-Authority Approach to Transaction Systems for Interoperating Applications
 
 This is the master and principal GitHub repo of the Multi-Authority Approach to Transaction Systems for Interoperating 
 Applications (MARTSIA) project. From here you will be redirected to all the available repos.
 The MARTSIA approach is presented in two papers. The first one is 
 "[MARTSIA: Enabling Data Confidentiality for Blockchain-based Process 
 Execution](https://arxiv.org/abs/2303.17977)" accepted at 
-[EDOC 2023](https://www.rug.nl/research/bernoulli/conf/?lang=en). The DOI will be published when available. 
+[EDOC 2023](https://www.rug.nl/research/bernoulli/conf/?lang=en). [DOI](https://doi.org/10.1007/978-3-031-46587-1_4) of the conference. 
 The second paper about MARTSIA, that extends the work done in the first one, is 
-"[Enabling Data Confidentiality with Public Blockchains](https://arxiv.org/abs/2308.03791)". This journal version has 
-been submitted at [ACM Transactions on Internet Technology (ACM-TOIT)](https://dl.acm.org/journal/toit), and it is currently
-under review.
+"[Enabling Data Confidentiality with Public Blockchains](https://arxiv.org/abs/2308.03791)".
 
 MARTSIA is implemented in Ethereum and Algorand. The first implementation is the one where the keys are exchanged via a
-client-server Secure Sockets Layer (SSL) connection. Here you can find the [Ethereum](https://github.com/apwbs/MARTSIA-Ethereum) 
-implementation and the [Algorand](https://github.com/apwbs/MARTSIA-Algorand) one. In the Ethereum repo there is a folder 
-called "caterpillar-interaction" where you can find all the necessary to run MARTSIA-Ethereum along Caterpillar as 
-explained in the paper.
+client-server Secure Sockets Layer (SSL) connection. Here you can find the 
+[Ethereum](https://github.com/apwbs/MARTSIA-Ethereum) implementation and the 
+[Algorand](https://github.com/apwbs/MARTSIA-Algorand) one. 
+In the Ethereum repo there is a folder called "caterpillar-interaction" where you can find all the necessary to run 
+MARTSIA-Ethereum along with
+[Caterpillar](https://github.com/orlenyslp/Caterpillar) as explained in the paper.
 
 The second implementation is the one where the keys are exchanged via blockchain. Here you can find the 
 [Ethereum](https://github.com/apwbs/MARTSIA-Ethereum-KoB) implementation and the 
