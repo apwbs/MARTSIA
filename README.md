@@ -35,6 +35,9 @@ Again, the code is available for both the
 [Ethereum](https://github.com/apwbs/MARTSIA-Ethereum-CSC) and
 [Algorand](https://github.com/apwbs/MARTSIA-Algorand-CSC) platforms.
 
+Finally, we provide a demo of MARTSIA. The repository with the MARTSIA-demo paper and its corresponding code, video and Wiki is available at
+[MARTSIA-demo](https://github.com/apwbs/MARTSIA-demo).
+
 If you liked our approach, are using it as a building block of your tool or are considering it for your related work,
 feel free and welcome to cite our manuscript!
 Please find the BibTeX below for convenience:
