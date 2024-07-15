@@ -45,7 +45,7 @@ Again, the code is available for both the
 Finally, we provide a demo of MARTSIA. The repository with the MARTSIA-demo paper and its corresponding code, video and Wiki is available at
 [MARTSIA-demo](https://github.com/apwbs/MARTSIA-demo).
 
-## Video presentation
+### Demo - Video presentation
 Along with the MARTSIA demo, you can find a video presentation of its usage:
 [MARTSIA demo video](https://www.youtube.com/watch?v=RAcifWw1_B0)
 
