@@ -10,6 +10,8 @@ Please find the presented slides on [SlideShare](https://www.slideshare.net/Edoa
 An extended version of the paper is available on arXiv: 
 “[Enabling Data Confidentiality with Public Blockchains](https://arxiv.org/abs/2308.03791)”.
 
+## Client-server key exchange
+
 MARTSIA's smart contracts are implemented in
 [Ethereum](https://github.com/apwbs/MARTSIA-Ethereum)
 and
@@ -23,11 +25,15 @@ with MARTSIA (please read our [paper](https://arxiv.org/abs/2303.17977) for more
 The versions above resort to a
 Secure Sockets Layer (SSL) client-server connection
 to exchange decryption keys.
+
+## Blockchain-based key exchange
 We have also designed an alternative scheme for the exchange
 that uses the blockchain itself as a backbone.
 Please find it implemented in
 [Ethereum](https://github.com/apwbs/MARTSIA-Ethereum-KoB)
 and [Algorand](https://github.com/apwbs/MARTSIA-Algorand-KoB).
+
+## Multi-signature smart contracts
 
 Furthermore, we provide alternative versions of the smart contracts
 requiring multiple signatures to enable operations.
@@ -35,9 +41,15 @@ Again, the code is available for both the
 [Ethereum](https://github.com/apwbs/MARTSIA-Ethereum-CSC) and
 [Algorand](https://github.com/apwbs/MARTSIA-Algorand-CSC) platforms.
 
+## Demo
 Finally, we provide a demo of MARTSIA. The repository with the MARTSIA-demo paper and its corresponding code, video and Wiki is available at
 [MARTSIA-demo](https://github.com/apwbs/MARTSIA-demo).
 
+## Video presentation
+Along with the MARTSIA demo, you can find a video presentation of its usage:
+[MARTSIA demo video](https://www.youtube.com/watch?v=RAcifWw1_B0)
+
+## Citation
 If you liked our approach, are using it as a building block of your tool or are considering it for your related work,
 feel free and welcome to cite our manuscript!
 Please find the BibTeX below for convenience:
