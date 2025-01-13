@@ -1,8 +1,13 @@
 # MARTSIA: Multi-Authority Approach to Transaction Systems for Interoperating Applications
 
-This is the master and principal GitHub repo of the Multi-Authority Approach to Transaction Systems for Interoperating 
-Applications (MARTSIA) project. From here, you will be redirected to all the available repositories.
-The MARTSIA approach is presented in two papers. The first one is 
+MARTSIA (Multi-Authority Approach to Transaction Systems for Interoperating Applications) is an approach for secrecy-preserving, immutable, access-controlled information exchange via public blockchain for process management.
+
+MARTSIA comes implemented in two versions:
+- [MARTSIA/Ethereum](https://github.com/apwbs/MARTSIA-Ethereum) employs Ethereum and other EVM-based blockchain platforms as its backbone;
+- [MARTSIA/Algorand](https://github.com/apwbs/MARTSIA-Algorand) adopts Algorand and its AVM.
+Other variants of our platforms are available and listed below.
+
+The approach is presented in 
 “[MARTSIA: Enabling Data Confidentiality for Blockchain-based Process 
 Execution](https://arxiv.org/abs/2303.17977)” accepted at 
 [EDOC 2023](https://www.rug.nl/research/bernoulli/conf/?lang=en) and published with DOI [10.1007/978-3-031-46587-1_4](https://doi.org/10.1007/978-3-031-46587-1_4). 
@@ -12,19 +17,16 @@ An extended version of the paper is available on arXiv:
 
 ## Client-server key exchange
 
-MARTSIA's smart contracts are implemented in
-[Ethereum](https://github.com/apwbs/MARTSIA-Ethereum)
-and
-[Algorand](https://github.com/apwbs/MARTSIA-Algorand).
+By default, MARTSIA resorts to a
+Secure Sockets Layer (SSL) client-server connection
+to exchange decryption keys.
+
+This scheme is employed to integrate MARTSIA with an existing blockchain-based process execution platform.
 The folder named `caterpillar-interaction` in the
 [MARTSIA-Ethereum](https://github.com/apwbs/MARTSIA-Ethereum) repository 
 contains an integrated porting of
 [Caterpillar](https://github.com/orlenyslp/Caterpillar)
 with MARTSIA (please read our [paper](https://arxiv.org/abs/2303.17977) for more information).
-
-The versions above resort to a
-Secure Sockets Layer (SSL) client-server connection
-to exchange decryption keys.
 
 ## Blockchain-based key exchange
 We have also designed an alternative scheme for the exchange
@@ -42,10 +44,9 @@ Again, the code is available for both the
 [Algorand](https://github.com/apwbs/MARTSIA-Algorand-CSC) platforms.
 
 ## Demo
-Finally, we provide a demo of MARTSIA. The repository with the MARTSIA-demo paper and its corresponding code, video and Wiki is available at
+The repository with the MARTSIA-demo paper and its corresponding code, video and Wiki is available at
 [MARTSIA-demo](https://github.com/apwbs/MARTSIA-demo).
 
-### Demo - Video presentation
 Along with the MARTSIA demo, you can find a video presentation of its usage:
 [MARTSIA demo video](https://www.youtube.com/watch?v=RAcifWw1_B0)
 
