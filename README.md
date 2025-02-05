@@ -34,7 +34,7 @@ For more information on MARTSIA, please consult our paper entitled "[MARTSIA: En
 [EDOC 2023](https://www.rug.nl/research/bernoulli/conf/?lang=en) and published with DOI [10.1007/978-3-031-46587-1_4](https://doi.org/10.1007/978-3-031-46587-1_4). 
 Please find the presented slides on [SlideShare](https://www.slideshare.net/EdoardoMarangone/martsia-enabling-data-confidentiality-for-blockchainbased-process-execution).
 
-An extended version of the above paper entitled is available on arXiv: "[Enabling Data Confidentiality with Public Blockchains](https://arxiv.org/abs/2308.03791)".
+An extended version of the above paper entitled is available on arXiv: "[Enabling Data Confidentiality with Public Blockchains](https://arxiv.org/abs/2308.03791)" (currently under review).
 
 An additional paper titled "[MARTSIA: Safeguarding Data Confidentiality in Blockchain-Driven Process Execution](https://arxiv.org/abs/2407.10684)" is available on arXiv. 
 
