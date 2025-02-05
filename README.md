@@ -1,54 +1,42 @@
-# MARTSIA: Multi-Authority Approach to Transaction Systems for Interoperating Applications
+# MARTSIA
 
-MARTSIA (Multi-Authority Approach to Transaction Systems for Interoperating Applications) is an approach for secrecy-preserving, immutable, access-controlled information exchange via public blockchain for process management. In short, it resorts to Multi-Authority Ciphertext Policy Attributed Based Encryption (MA-CP-ABE) to handle the ciphering/deciphering cycle, a content-addressed Distributed Hash Table (DHT) file system (IPFS) to handle the storage of documents, and smart contracts to enforce the access grants and notarise the data flow.
+**Multi-Authority Approach to Transaction Systems for Interoperating Applications**  
+**** 
+
+MARTSIA is a decentralized approach for secrecy-preserving, immutable, access-controlled information exchange via public blockchain for process management. 
+In short, it resorts to Multi-Authority Ciphertext Policy Attributed Based Encryption (MA-CP-ABE) to handle the ciphering/deciphering cycle, a content-addressed Distributed Hash Table (DHT) file system (IPFS) to handle the storage of documents, and smart contracts to enforce the access grants and notarise the data flow.
+
+Several actors cooperate in a process execution within the framework: _(i)_ the **Data Owner**, who encrypts data using an MA-CP-ABE policy; _(ii)_ the **Reader**, who intends to decrypt it; _(iii)_ the **Attribute Certifier**, who assigns MA-CP-ABE attributes to the Readers;  and _(iv)_ the **Authority Network**, a set of Authorities responsible for generating segments of decryption keys for the Reader. Using these keys, the Reader can decrypt the data.
 
 MARTSIA comes implemented in two versions:
-- [MARTSIA/Ethereum](https://github.com/apwbs/MARTSIA-Ethereum) employs Ethereum and other EVM-based blockchain platforms as its backbone;
-- [MARTSIA/Algorand](https://github.com/apwbs/MARTSIA-Algorand) adopts Algorand and its AVM.
-Other variants of our platforms are available and listed below.
+- [MARTSIA-EVM-TLS](https://github.com/apwbs/MARTSIA-EVM-TLS) employs EVM-based blockchain platforms as its backbone;
+- [MARTSIA-Algorand](https://github.com/apwbs/MARTSIA-Algorand) adopts Algorand and its AVM.
 
-The approach is presented in 
-“[MARTSIA: Enabling Data Confidentiality for Blockchain-based Process 
-Execution](https://arxiv.org/abs/2303.17977)” accepted at 
-[EDOC 2023](https://www.rug.nl/research/bernoulli/conf/?lang=en) and published with DOI [10.1007/978-3-031-46587-1_4](https://doi.org/10.1007/978-3-031-46587-1_4). 
-Please find the presented slides on [SlideShare](https://www.slideshare.net/EdoardoMarangone/martsia-enabling-data-confidentiality-for-blockchainbased-process-execution).
-An extended version of the paper is available on arXiv: 
-“[Enabling Data Confidentiality with Public Blockchains](https://arxiv.org/abs/2308.03791)”.
+All the variants of our framework are available and listed below.
 
 ## Client-server key exchange
 
-By default, MARTSIA resorts to a
-Secure Sockets Layer (SSL) client-server connection
-to exchange decryption keys.
-
-This scheme is employed to integrate MARTSIA with an existing blockchain-based process execution platform.
-The folder named `caterpillar-interaction` in the
-[MARTSIA-Ethereum](https://github.com/apwbs/MARTSIA-Ethereum) repository 
-contains an integrated porting of
-[Caterpillar](https://github.com/orlenyslp/Caterpillar)
-with MARTSIA (please read our [paper](https://arxiv.org/abs/2303.17977) for more information).
+By default, MARTSIA resorts to Transport Layer Security (TLS) client-server connections to request and transmit key segments between the Reader and Authorities. 
+The implementations for EVM and Algorand can be found in the respective repositories: [MARTSIA-EVM-TLS](https://github.com/apwbs/MARTSIA-EVM-TLS) and [MARTSIA-Algorand](https://github.com/apwbs/MARTSIA-Algorand).
 
 ## Blockchain-based key exchange
-We have also designed an alternative scheme for the exchange
-that uses the blockchain itself as a backbone.
-Please find it implemented in
-[Ethereum](https://github.com/apwbs/MARTSIA-Ethereum-KoB)
-and [Algorand](https://github.com/apwbs/MARTSIA-Algorand-KoB).
+ 
+We have also designed an alternative scheme for the request and transmission of key segments that uses the blockchain itself as a backbone.
+Please find it implemented in [EVM](https://github.com/apwbs/MARTSIA-EVM-OnChain) and [Algorand](https://github.com/apwbs/MARTSIA-Algorand-KoB).
 
 ## Multi-signature smart contracts
 
-Furthermore, we provide alternative versions of the smart contracts
-requiring multiple signatures to enable operations.
-Again, the code is available for both the
-[Ethereum](https://github.com/apwbs/MARTSIA-Ethereum-CSC) and
-[Algorand](https://github.com/apwbs/MARTSIA-Algorand-CSC) platforms.
+Furthermore, we provide alternative versions of the smart contract requiring multiple signatures to enable operations.
+The code for the Algorand platform is available in this repository [MARTSIA-Algorand-CSC](https://github.com/apwbs/MARTSIA-Algorand-CSC).
 
-## Demo
-The repository with the MARTSIA-demo paper and its corresponding code, video and Wiki is available at
-[MARTSIA-demo](https://github.com/apwbs/MARTSIA-demo).
+## Literature and links
+For more information on MARTSIA, please consult our paper entitled "[MARTSIA: Enabling Data Confidentiality for Blockchain-based Process Execution](https://arxiv.org/abs/2303.17977)" accepted at 
+[EDOC 2023](https://www.rug.nl/research/bernoulli/conf/?lang=en) and published with DOI [10.1007/978-3-031-46587-1_4](https://doi.org/10.1007/978-3-031-46587-1_4). 
+Please find the presented slides on [SlideShare](https://www.slideshare.net/EdoardoMarangone/martsia-enabling-data-confidentiality-for-blockchainbased-process-execution).
 
-Along with the MARTSIA demo, you can find a video presentation of its usage:
-[MARTSIA demo video](https://www.youtube.com/watch?v=RAcifWw1_B0)
+An extended version of the above paper entitled is available on arXiv: "[Enabling Data Confidentiality with Public Blockchains](https://arxiv.org/abs/2308.03791)".
+
+An additional paper titled "[MARTSIA: Safeguarding Data Confidentiality in Blockchain-Driven Process Execution](https://arxiv.org/abs/2407.10684)" is available on arXiv. 
 
 ## Citation
 If you liked our approach, are using it as a building block of your tool or are considering it for your related work,
