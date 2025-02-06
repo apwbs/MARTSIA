@@ -16,7 +16,7 @@ All the other variants of our framework are available and listed below.
 
 ## Blockchain-based key exchange
  
-We have also designed an alternative scheme for the request and transmission of key segments that uses the blockchain itself as a backbone.
+We have designed an alternative scheme for the request and transmission of key segments that uses the blockchain itself as a backbone.
 Please find it implemented in [EVM](https://github.com/apwbs/MARTSIA-EVM-OnChain) and [Algorand](https://github.com/apwbs/MARTSIA-Algorand-KoB).
 
 ## Multi-signature smart contracts
