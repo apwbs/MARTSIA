@@ -21,7 +21,7 @@ Please find it implemented in [EVM](https://github.com/apwbs/MARTSIA-EVM-OnChain
 
 ## Multi-signature smart contracts
 
-Furthermore, we provide alternative versions of the smart contract requiring multiple signatures to enable operations.
+Furthermore, we provide alternative versions of the smart contracts requiring multiple signatures to enable operations.
 The code for the Algorand platform is available in this repository [MARTSIA-Algorand-CSC](https://github.com/apwbs/MARTSIA-Algorand-CSC).
 
 ## Literature and links
