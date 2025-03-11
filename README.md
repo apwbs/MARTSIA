@@ -9,7 +9,7 @@ In short, it resorts to Multi-Authority Ciphertext Policy Attributed Based Encry
 Several actors cooperate in a process execution within the framework: _(i)_ the **Data Owner**, who encrypts data using an MA-CP-ABE policy; _(ii)_ the **Reader**, who intends to decrypt it; _(iii)_ the **Attribute Certifier**, who assigns MA-CP-ABE attributes to the Readers;  and _(iv)_ the **Authority Network**, a set of Authorities responsible for generating segments of decryption keys for the Reader. Using these keys, the Reader can decrypt the data.
 
 MARTSIA comes implemented in two versions:
-- [MARTSIA-Demo](https://github.com/apwbs/MARTSIA-Demo) employs EVM-based blockchain platforms as its backbone;
+- [MARTSIA-Ethereum](https://github.com/apwbs/MARTSIA-Demo) employs EVM-based blockchain platforms as its backbone;
 - [MARTSIA-Algorand](https://github.com/apwbs/MARTSIA-Algorand) adopts Algorand and its AVM.
 
 All the other variants of our framework are available and listed below.
