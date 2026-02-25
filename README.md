@@ -31,7 +31,7 @@ Please find the presented slides on [SlideShare](https://www.slideshare.net/Edoa
 
 An extended version of the above paper entitled is available on arXiv: "[Enabling Data Confidentiality with Public Blockchains](https://arxiv.org/abs/2308.03791)" (currently under review).
 
-An additional paper titled "[MARTSIA: Safeguarding Data Confidentiality in Blockchain-Driven Process Execution](https://arxiv.org/abs/2407.10684)" is available on arXiv. 
+A demo paper titled "[MARTSIA: A Tool for Confidential Data Exchange via Public Blockchain](https://arxiv.org/abs/2407.10684)" has been accepted at [CAiSE'25 Forum](https://conferences.big.tuwien.ac.at/caise2025/cfp_forum.php) and published with DOI [10.1007/978-3-031-94590-8_21](https://doi.org/10.1007/978-3-031-94590-8_21). 
 
 ## Citation
 If you liked our approach, are using it as a building block of your tool or are considering it for your related work,
